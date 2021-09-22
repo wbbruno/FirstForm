@@ -1,0 +1,105 @@
+@charset "UTF=8";
+body,h1,h2,p,input,label,form,img{
+    padding: 0;
+    margin: 0;
+}
+
+*{
+    font-family: "Gemunu+Libre","Nunito";
+}
+body{
+    background: rgba(21, 21, 21, 0.912);
+    max-width: 500px;
+    margin:  100px auto;
+     box-shadow: 0px 0px 8px rgb(255, 255, 255);
+ 
+    
+}
+.geral{
+    background: rgb(119, 118, 118);
+    padding: 50px;
+}
+.home h1{
+    font-size: 4rem;
+    text-align: center;
+    max-width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+}
+.home p,h2{
+    font-size: 1rem;
+    margin-left: 45px;
+}
+
+img{
+    max-width: 100%;
+    
+  
+}
+.imagem {
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+}
+.imag{
+    display: block;
+    width: 45px;
+    margin: 10px;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    
+}
+.form-info input{
+    flex: 1 1 300px ;
+    width: 300px;
+    font-family: "Nunito",Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(12, 12, 12);
+    border: none;
+    box-shadow: 0px 0px 5px black;
+}
+.form-info input:hover{
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.522);
+}
+.form button{
+  
+    font-family: "Nunito",Helvetica, sans-serif;
+    border: none;
+    padding: 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-left: 65px;
+    
+}
+.radios{
+    font-family: "Nunito",Helvetica, sans-serif;
+    font-size: 1.4rem;
+    margin: 15px;
+
+}
+input[type='radio']:checked:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+    background-color: #000000;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid rgb(0, 0, 0);
+}
+.form button:hover{
+    background: rgb(160, 160, 160);
+    color: white;
+    box-shadow: 0px 0px 3px rgba(38, 36, 36, 0.576);
+}
+
